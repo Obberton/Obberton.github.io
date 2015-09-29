@@ -1,0 +1,23 @@
+body {
+    width: 70%;
+    padding: 40px 10%;
+    background-color: #222222;
+    color: #c4e3f3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #99aadd;
+}
+
+h1>small {
+    color: #bbbbbb;
+}
+
+a {
+    color: #66afe9;
+}
+
+a:hover {
+    color: #8888dd;
+}
+
