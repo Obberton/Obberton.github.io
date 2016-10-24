@@ -1,11 +1,13 @@
 body {
 	background-color: #222222;
 	color: #c4e3f3;
+	min-width: 600px;
 }
 
 .content {
 	width: 90%;
-	padding: 40px 20%;
+	padding: 20px 50px 20px 250px;
+	max-width: 1200px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -21,6 +23,10 @@ a {
 }
 
 a:hover {
+	color: #8888dd;
+}
+
+a:visited {
 	color: #8888dd;
 }
 
@@ -40,10 +46,9 @@ a:hover {
 	background-color: #303030;
 	float: left;
 	height: 100%;
-	position: fixed;
+	position: absolute;
 	max-width: 12%;
-	min-width: 12%;
-	margin-left: 4%;
+	min-width: 200px;
 }
 
 .nav ul {
