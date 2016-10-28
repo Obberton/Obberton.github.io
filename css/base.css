@@ -1,15 +1,29 @@
+html {
+	height: 100%;
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
 body {
 	margin: 0;
 	padding-bottom: 50px;
 	background-color: #222222;
 	color: #c4e3f3;
 	min-width: 600px;
+	position: relative;
+	min-height: 100%;
 }
 
 .content {
 	width: 90%;
 	padding: 20px 50px 20px 250px;
 	max-width: 1200px;
+	margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
