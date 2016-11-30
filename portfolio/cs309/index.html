@@ -22,25 +22,44 @@
 	<ul>
 		<li><h3><a href="/portfolio">Home</a></h3></li>
 		<li><h3>Projects</h3></li>
-		<li class="selected"><h4>Com S 309</h4></li>
+		<li><h4><a href="/portfolio/cs309">Com S 309</a></h4></li>
 		<li><h4><a href="/portfolio/cs362">Com S 362</a></h4></li>
-		<li><h4><a href="/portfolio/LD33">Ludum Dare</a></h4></li>
+		<li><h4><a href="/portfolio/ld33">Ludum Dare</a></h4></li>
 		<li><h4><a href="/portfolio/se491">Senior Design</a></h4></li>
+		<li><h3>Work Experience</h3></li>
+		<li><h4><a href="/portfolio/work/tr">Thomson Reuters</a></h4></li>
+		<li><h4><a href="/portfolio/work/webdev">ITS Web Development Services</a></h4></li>
 		<li><h3><a href="/portfolio/geneds">General Education</a></h3></li>
 	</ul>
 </div>
 <div class="content">
 	<h1>Com S 309 - "Not Minecraft"</h1>
 	<p>Com S 309 is a project class where we had to come up with a project of our own to implement, in order to
-		practicethings like agile development, and using iterative cycles in order to improve upon software we had
-		alreadystarted.So the first iteration, we had a very basic game set up, that was barely functional, and each
-		iterationafterward,we managed to make it quite a bit better. By the end of the semester, we had a halfway decent
-		game that we couldcall our own.</p>
+		practice things like agile development, and using iterative cycles in order to improve upon software we had
+		already started.So the first iteration, we had a very basic game set up, that was barely functional, and each
+		iteration afterward,we managed to make it quite a bit better. By the end of the semester, we had a halfway
+		decent
+		game that we could call our own.</p>
 	<p>The game we made is actually very similar to Minecraft in the sense that it uses procedural generation in
-		ordertogenerate the world. We don't have nearly as many different types of blocks as Minecraft, but we do have
-		monstersthat we can spawn whenever we want, and a health and inventory system. It was also designed for VR, and
-		testedonthe Oculus Rift DK2.</p>
+		order to generate the world. We don't have nearly as many different types of blocks as Minecraft, but we do have
+		monsters that we can spawn whenever we want, and a health and inventory system. It was also designed for VR, and
+		tested on the Oculus Rift DK2.</p>
+	<p> The main thing I did in this project was the procedural generation. Unity only has 2-dimensional perlin noise,
+		so I had to go through and make a similar function, but using 3d noise. I also multithreaded it, so we could
+		generate multiple chunks of land simultaneously.</p>
+	<p>Some things I had to consider while creating the generation code was how the chunks are stored in memory, so I
+		could go back and let the other people working on the project know how they could modify the blocks, since this
+		is a game where you can interact with the environment.</p>
+	<h2><a href="https://www.youtube.com/watch?v=JovayafWCA0" target="_blank">Demo</a></h2>
 </div>
-<div class="footer">&copy; Robert Young, <a href="mailto:rdyoung@iastate.edu">rdyoung@iastate.edu</a></div>
+<div class="footer">
+	<p>&copy; Robert Young, <a href="mailto:rdyoung@iastate.edu">rdyoung@iastate.edu</a></p>
+	<table>
+		<tr>
+			<td><a href="http://github.com/obberton">Github</a></td>
+			<td><a href="http://linkedin.com/in/obberton13">LinkedIn</a></td>
+		</tr>
+	</table>
+</div>
 </body>
 </html>

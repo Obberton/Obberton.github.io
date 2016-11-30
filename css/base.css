@@ -11,7 +11,7 @@ html {
 
 body {
 	margin: 0;
-	padding-bottom: 50px;
+	padding-bottom: 100px;
 	background-color: #222222;
 	color: #c4e3f3;
 	min-width: 600px;
@@ -56,6 +56,17 @@ a:visited {
 	padding: 1rem;
 	text-align: center;
 	border-top: 2px solid #202040;
+}
+
+.footer table {
+	min-width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.footer table tr td {
+	width: 20px;
 }
 
 .nav {
